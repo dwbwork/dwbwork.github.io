@@ -1,0 +1,22 @@
+{
+    "name": "sunshinev/laravel-fe-render",
+    "authors": [
+        {
+            "name": "sunshinev"
+        }
+    ],
+    "license":"MIT",
+    "description": "vue + view remote template render for laravel",
+    "autoload": {
+        "psr-4":{
+            "Sunshinev\\Render\\": "\\src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sunshinev\\Render\\RenderServiceProvider"
+            ]
+        }
+    }
+}
